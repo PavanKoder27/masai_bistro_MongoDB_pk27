@@ -292,7 +292,6 @@ curl http://localhost:3000/api/menu/categories
 # Test health check
 curl http://localhost:3000/api/health
 ```
-![Screenshot 2025-06-08 205625](https://github.com/user-attachments/assets/75546efb-e608-4ae2-a2ae-058832a788f8)
 
 ### Database Status
 The database has been recently optimized:
