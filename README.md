@@ -121,14 +121,9 @@ npm start
 - MongoDB connection successful message in backend terminal
 
 ### 👥 **Default Login Credentials for Masai Bistro**
+![Log in](https://github.com/user-attachments/assets/2274be4a-a731-49cc-91dc-3963ac474427)
+![sign up](https://github.com/user-attachments/assets/e15ef2f5-8508-479c-aaff-7fe4fa0fe3d6)
 
-After seeding, use these credentials to test the system:
-
-| Role | Email | Password | Name | Access Level |
-|------|-------|----------|------|--------------|
-| **Admin** | admin@masaibistro.com | Admin123! | Arjun Patel | Full system access, analytics, settings |
-| **Manager** | manager@masaibistro.com | Manager123! | Priya Sharma | Menu & order management, analytics |
-| **Staff** | staff@masaibistro.com | Staff123! | Rahul Singh | Order processing, status updates |
 
 ## 📚 API Documentation
 
@@ -153,6 +148,14 @@ POST /api/menu                   # Create menu item (Admin/Manager)
 PUT /api/menu/:id               # Update menu item (Admin/Manager)
 DELETE /api/menu/:id            # Delete menu item (Admin/Manager)
 ```
+![menu](https://github.com/user-attachments/assets/40e88fad-49d7-4cf9-9eaf-18b66614562f)
+![menu 2](https://github.com/user-attachments/assets/fa31ea1c-d2a5-4d94-9b1e-a0d79a4b2587)
+
+### Cart 
+![cart](https://github.com/user-attachments/assets/c7159627-63a8-43f8-8973-bbdd97ac1a36)
+![cart 2](https://github.com/user-attachments/assets/25e20c9c-d49a-4826-87ba-44ef494c5bd9)
+![cart 3](https://github.com/user-attachments/assets/9adb913f-0dd6-4c64-8511-a8f623fb09fb)
+
 
 ### Order Endpoints
 ```http
@@ -160,6 +163,8 @@ GET /api/orders                 # Get orders (Protected)
 POST /api/orders                # Create order (Protected)
 PATCH /api/orders/:id/status    # Update order status (Staff+)
 ```
+![orders](https://github.com/user-attachments/assets/34f84a76-9291-4681-93fb-a4101414ffb6)
+
 
 ### Analytics Endpoints (Manager/Admin Only)
 ```http
@@ -167,6 +172,17 @@ GET /api/analytics/dashboard      # Dashboard summary
 GET /api/analytics/sales          # Sales reports
 GET /api/analytics/popular-dishes # Most ordered dishes
 ```
+![analytics dash](https://github.com/user-attachments/assets/36f09b09-73aa-4df4-8257-8c666c7e5e86)
+
+
+### Admin Panel
+![admin panel](https://github.com/user-attachments/assets/9f8ad424-291d-47f7-a55c-6caeb0eb805a)
+![admin panel menu](https://github.com/user-attachments/assets/2df539f0-3447-4dab-b795-9e4c5bf81275)
+![users panel](https://github.com/user-attachments/assets/324a2d54-46f3-4971-af63-5ded10056db3)
+![reports](https://github.com/user-attachments/assets/db575467-6786-42f8-8eb9-6ef028dc4424)
+![bistro settings](https://github.com/user-attachments/assets/bd99d483-62cf-4a8b-8836-a639a6549834)
+
+
 
 ## 🏗️ Project Structure
 
