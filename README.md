@@ -46,7 +46,7 @@ A comprehensive restaurant management system built specifically for **Masai Bist
 #### 1. **Clone and Setup Project**
 ```bash
 # Clone the repository
-git clone https://github.com/PavanKoder27/Masai-Bistro.git
+git clone https://github.com/PavanKoder27/masai_bistro_MongoDB_pk27
 cd Masai-Bistro
 
 # Install backend dependencies
