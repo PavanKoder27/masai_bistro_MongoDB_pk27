@@ -64,8 +64,7 @@ Create a `.env` file in the root directory:
 ```env
 # Database Configuration
 MONGODB_URI=mongodb://localhost:27017/masai_bistro_db
-# For MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/restaurant_db
-
+# For MongoDB Atlas: MONGODB_URI=mongodb+srv://vadapavank07:Pavank27@cluster0.00opyuu.mongodb.net/restaurant_db
 # Server Configuration
 PORT=3000
 NODE_ENV=development
