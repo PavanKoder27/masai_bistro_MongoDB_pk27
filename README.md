@@ -78,6 +78,31 @@ FRONTEND_URL=http://localhost:3001
 
 **Note**: The project is currently configured to use MongoDB Atlas. If you want to use a local MongoDB instance, update the `MONGODB_URI` accordingly.
 
+#### Create '.env' file in root directory"
+```env
+# Database Configuration
+# MONGODB_URI=mongodb://localhost:27017/masai_bistro_db
+MONGODB_URI=mongodb+srv://vadapavank07:Pavank27@cluster0.00opyuu.mongodb.net/restaurant_db
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# JWT Configuration
+JWT_SECRET=your_super_secret_jwt_key_here_change_in_production
+
+# CORS Configuration
+FRONTEND_URL=http://localhost:3001
+
+# Optional: MongoDB Atlas Configuration (for cloud deployment)
+# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/restaurant_db
+
+# Optional: Production Configuration
+# NODE_ENV=production
+# PORT=5000
+# JWT_SECRET=your_production_jwt_secret_very_long_and_secure
+```
+paste this 
+
 #### 3. **Database Initialization**
 ```bash
 # Initialize restaurant settings
